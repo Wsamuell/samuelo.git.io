@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.logo{
+    max-width: 1400px;
+    padding: 0 80px;
+    margin: auto;
+}
+.menu-nav{
+    position: fixed;
+    background: gray;
+    width: 100%;
+    font-family: fantasy, serif;
+    padding: 20px;
+    }
+.menu-nav .logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-nav .logo a{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+}
+.menu-nav .nav-bar ul li{
+    list-style: none;
+    display: inline-block;
+}
+.menu-nav .nav-bar li a{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 25px;
+} 
