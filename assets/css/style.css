@@ -11,9 +11,9 @@
 }
 .menu-nav{
     position: fixed;
-    background: gray;
+    background: black;
     width: 100%;
-    font-family: fantasy, serif;
+    font-family: helvetica, Arial, sans-serif;
     padding: 20px;
     }
 .menu-nav .logo{
@@ -36,3 +36,10 @@
     font-weight: 500;
     margin-left: 25px;
 } 
+.hero{
+    display: flex;
+    background-image: url("/assets/images/background.jpg") no-repeat center;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}   
