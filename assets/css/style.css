@@ -4,29 +4,20 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-.logo{
-    max-width: 1400px;
-    padding: 0 80px;
-    margin: auto;
+/* Header (menu-bar) styling */
+.logo-nav{
+    max-width: 1500px;
+    padding: 0 40px;
+    margin:auto;
 }
 .menu-nav{
     position: fixed;
     background: black;
     width: 100%;
     font-family: helvetica, Arial, sans-serif;
-    padding: 20px;
-    }
-.menu-nav .logo{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    padding: 20px 0;
 }
-.menu-nav .logo a{
-    font-size: 50px;
-    font-weight: 700;
-    color: white;
-}
-.menu-nav .nav-bar ul li{
+.menu-nav .nav-bar li{
     list-style: none;
     display: inline-block;
 }
@@ -36,10 +27,45 @@
     font-weight: 500;
     margin-left: 25px;
 } 
-.hero{
+.menu-nav .logo a{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+}    
+.menu-nav .logo-nav{
     display: flex;
-    background-image: url("/assets/images/background.jpg") no-repeat center;
-    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+/* body/hero stying  */
+.main-body .about-me{
+    display: inline-block;
+}
+.about-me{
+    background: url("/assets/images/hero.jpg") no-repeat center;
     background-size: cover;
     background-attachment: fixed;
-}   
+    color:white;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    text-align: left;
+    font-size: 40px;
+    font-weight: bolder;
+    
+} 
+.about-me img{
+    width: auto;
+    height: 1200px;
+    padding: 100px;
+}
+    /* justify-content: center;
+    height: 50vh;
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+}
+.hero .about-me{
+    margin: auto 0 ;
+} *
