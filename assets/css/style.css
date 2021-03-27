@@ -4,68 +4,226 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-/* Header (menu-bar) styling */
-.logo-nav{
-    max-width: 1500px;
-    padding: 0 40px;
-    margin:auto;
+
+/* styling the menu bar */
+
+.menu-width{
+    max-width: 2000px;
+    padding: 0 80px;
+    margin: auto;
 }
-.menu-nav{
+.menu-bar{
     position: fixed;
-    background: black;
     width: 100%;
-    font-family: helvetica, Arial, sans-serif;
+    background: white;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
     padding: 20px 0;
+    z-index: 9999;
 }
-.menu-nav .nav-bar li{
-    list-style: none;
-    display: inline-block;
-}
-.menu-nav .nav-bar li a{
-    color: white;
-    font-size: 20px;
-    font-weight: 500;
-    margin-left: 25px;
-} 
-.menu-nav .logo a{
-    font-size: 40px;
-    font-weight: 600;
-    color: white;
-}    
-.menu-nav .logo-nav{
+.menu-bar .menu-width{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-/* body/hero stying  */
-.main-body .about-me{
+.menu-bar .logo a{
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+}
+.menu-bar .logo span{
+    color: teal;
+}
+.menu-bar .nav-list li{
+    list-style: none;
     display: inline-block;
 }
-.about-me{
-    background: url("/assets/images/hero.jpg") no-repeat center;
+.menu-bar .nav-list li a{
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 35px;
+    transition: color 0.3s ease;
+}
+.menu-bar .nav-list li a:hover{
+    color: teal;
+    height: 100px;
+    width: 100px;
+}
+/* menu btn styling  */
+.menu-btn{
+    color: teal;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+/* hero section styling */
+.hero{
+    display: flex;
+    background: url("/assets/images/bg-2.jpeg") no-repeat;
+    height: 50vh;
+    color: white;
+    min-width: 500px;
+    background-position: fill;
     background-size: cover;
-    background-attachment: fixed;
-    color:white;
-    margin: 0 auto;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+.hero .hero-width{
+    margin: auto 0 auto 200px;
+}
+.hero .hero-content .hero-welcome{
+    font-size: 50px;
+}
+.hero .hero-content .hero-name{
+    font-size: 100px;
+    font-style: italic;
+    margin-left: 70px;
+    color: teal;
+}
+
+/* styling the about me section  */
+.title{
+    border-top: 5px;
+}
+section, .projects, .contact, .skills, footer{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+.about, .projects{
+    padding: 100px 50px;
+    display: flex;
+    align-items: center;
+}
+.about .title, .skills .title{
+    position: relative;
+    font-size: 50px;
+    font-weight: 200;
+    margin-bottom: 60px;
+    padding-bottom: 10px;
+    border-top: 2px solid;
+    border-color: #f7e7ce;
+    color: teal;
+    text-align: center;
+}
+
+.about .about-me-content img{
+    width: 500px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+}   
+.about .about-me .about-me-content{
+    padding: 0px 30px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    object-fit: cover;
+    text-align: left;
+    justify-content: left;
+    display: flex;
+}
+.about .about-me-content .content-text{
+    margin-left: 50px;
+    padding: 0 30px;
+}
+
+/* styling the projects section  */
+.projects{
+    background-color: teal;
+    flex-wrap: wrap;
+}
+.projects .title{
+    position: relative;
+    font-size: 50px;
+    font-weight: 200;
+    margin-bottom: 60px;
+    padding-bottom: 10px;
+    border-top: 3px solid;
+    border-color: #f7e7ce;
+    color: black;
+    text-align: center;
+    display: flex;
     width: 100%;
+
+}
+iframe{
     display: flex;
     justify-content: right;
-    flex-wrap: wrap;
-    text-align: left;
-    font-size: 40px;
-    font-weight: bolder;
-    
-} 
-.about-me img{
-    width: auto;
-    height: 1200px;
-    padding: 100px;
+    object-fit: cover;
 }
-    /* justify-content: center;
-    height: 50vh;
+.projects .run-buddy{
+    padding: 0px 30px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    object-fit: cover;
+    text-align: center;
+    justify-content: center;
+}
+/* styling the skill section  */
+.skills{
+    padding: 100px, 50px;
+    margin-top: 100px;
+}
+.skills .skills-list{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
 
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+/* styling the contact section */
+
+/* styling the footer section */
+footer{
+    background: black;
+    padding: 20px 23px;
+    color: white;
+    text-align: center;
 }
-.hero .about-me{
-    margin: auto 0 ;
-} *
+footer span{
+    color:teal;
+    text-decoration: none;
+}
+footer span:hover{
+    text-decoration: underline;
+}
+
+
+/* includes incomplete javascript since its not required yet */
+@media (max-width: 1500px) {
+    /* .about .about-me .about-me-content{
+        padding: 0px 30px;
+        font-size: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        object-fit: cover;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        } */
+} 
+@media (max-width: 1376px) {
+.menu-width{
+    padding: 0 50px;
+    }
+.menu-btn{
+    display: block;
+    z-index: 9999;
+    /* color: white; */
+    }
+.menu-bar .nav-list{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: teal;
+    text-align: center;
+    padding-top: 100px;
+    }    
+.menu-bar .nav-list li{
+    display: block;
+    }
+.menu-bar .nav-list li a{
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 20px;
+    color: white;
+    }
+}

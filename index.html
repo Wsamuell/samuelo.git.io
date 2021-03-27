@@ -7,80 +7,138 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/2623f2e398.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <!-- Main header  -->
-    <!-- Why cant  i get my logo and menu to seperate -->
-    <header class="menu-nav">
-        <div class="logo-nav">
-            <h1 class="logo"><a href="./index.html">Portfolio.<span>Sam</span></a></h1>
-            <nav class="nav-bar">
-                <ul>
+
+    <header class="menu-bar">
+        <div class="menu-width">
+            <h1 class="logo"><a href="./index.html">Portfolio.<span class="logo-2">Sam</span></a></h1>
+            <nav>
+                <ul class="nav-list">
                     <li><a href="#about-me">About Me</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#experience">Skills | Experience</a></li>
                     <li><a href="#contact-me">Contact Me</a></li>
-                    <li><a href="#Resume">Resume</a></li>
+                    <li><a href="/assets/resume.jpg" target="_blank">Resume</a></li>
                 </ul>
             </nav>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
     </header>
-    <!-- Hero section main body -->
-    <section class="main-body">
-        <article id="about-me" class="about-me">
-            <img src="/assets/images/IMG_3.jpg" alt="picture of author" />
-            <div class="about-me-content">
-                <h2>About Me</h2>
-                <div class="text-intro">Hello!! I'm Samuel O. </div>
-                <div class="text-body-1">This is my portfolio showcasing my knowledge so far as a young full stack
-                    developer. Born in Nigeria, raised in the United states, graduate from Arizona State University with
-                    a
-                    degree in biological sciences</div>
-                <div class="text-body-2">I am currently employed with Metromile, a Start-up technology company in the
-                    Underwriting department looking to widen my horizon with my upcoming certification as a full stack
-                    developer. </div>
-                <div class="text-conc">My interest lie in sports, puzzles, and video games.</div>
+    <section class="hero">
+        <div class="hero-width">
+            <div class="hero-content">
+                <div class="hero-welcome">Welcome to my portfolio</div>
+                <br>
+                <div class="hero-name">Samuel Odubamowo.</div>
             </div>
+        </div>
+    </section>
+    <section id="about-me" class="about">
+        <article class="about-width">
+            <h2 class="title">About Me</h2>
+            <br>
+            <div class="about-me">
+                <div class="about-me-content">
+                    <div class="content-img">
+                        <img src="/assets/images/author.jpg" alt="picture of author" />
+                    </div>
+                    <div class="content-text">Hello!!
+                        <br><br>
+                        I'm Samuel Odubamowo and this is my portfolio showcasing my knowledge so
+                        far as a young full stack
+                        developer.
+                        <br><br>
+                        Born in Nigeria, raised in the United states, graduate from Arizona State University
+                        with
+                        a degree in biological sciences and i am currently employed with Metromile, a Start-up
+                        technology
+                        company taking the insurance world by storm.
+                        <br><br>
+                        I work in the Specialist department but i am looking to widen my horizon with my upcoming
+                        certification as a
+                        full stack developer.
+                        <br><br>
+                        My interests lie in sports, puzzles, and video games.
+                    </div>
+                </div>
         </article>
+        </div>
+    </section>
 
-        <article id="projects" class="work">
-            <div>
-                <div class="section-title">
-                    <h2>Run Buddy</h2>
-                    <div class="rb-text">Comprehensive challenge to build a website with instructions granted from a
-                        well
-                        grounded company </div>
-                    <!-- insert image here for run buddy -->
+    <section id="projects" class="projects">
+        <article class="title">Projects And Commisions</article>
+        <div class="projects-width">
+            <div class="run-buddy">
+                <div class="rb-text">Run Buddy</div>
+                <div>Comprehensive challenge to build a website with instructions granted from a
+                    well grounded company </div>
+                <!-- insert link here for run buddy -->
+                <div class="rb-preview">
+                    <iframe src="https://wsamuell.github.io/run-buddy/" width="500px" height="500px"></iframe>
+                </div>
+                <a href="https://wsamuell.github.io/run-buddy/" target="_blank">View here!</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="skills">
+        <div class="section-title">
+            <h2 class="title">Skills | Experience</h2>
+            <div class="skills-list">
+                <div class="skill-1">
+                    <img src="/assets/images/html.png" alt="html image">
+                </div>
+                <div class="skill-2">
+                    <img src="/assets/images/css.png" alt="css image">
+                </div>
+                <div class="skill-3">
+                    <img src="/assets/images/java.png" alt="JavaScript image">
                 </div>
             </div>
+        </div>
+    </section>
 
-        </article>
-        <article id="experience" class="skills">
-            <div>
-                <div class="section-title">
-                    <h2>Skills | Experience</h2>
-                    <div class="skill-1">HTML</div>
-                    <div class="skill-2">CSS</div>
-                    <div class="skill-3">JavaScript</div>
-                    <!-- insert resume here  -->
+    <section id="contact-me" class="contact">
+        <div class="contact-width">
+            <h2 class="title">Contact Me!</h2>
+            <div class="icons">
+                <div class="rows">
+                    <i class="fas fa-user"></i>
+                    <div class="info">
+                        <div class="head">Name</div>
+                        <div class="sub-title">Samuel Odubamowo</div>
+                    </div>
+                </div>
+                <div class="rows">
+                    <i class="fas fa-envelope-square"></i>
+                    <div class="info">
+                        <div class="head">Email</div>
+                        <div class="sub-title">Samuel Odubamowo</div>
+                    </div>
+                </div>
+                <div class="rows">
+                    <i class="fas fa-phone"></i>
+                    <div class="info">
+                        <div class="head">Phone</div>
+                        <div class="sub-title">Samuel Odubamowo</div>
+                    </div>
                 </div>
             </div>
-        </article>
-        <article id="contact-me" class="contact">
-            <div>
-                <h3>Contact Me!</h3>
-                P: <a href="480-765-7968">480-765-7968</a><br />
-                E: <a href="mailto: wemsamuel@gmail.com">Wemsamuel@gmail.com</a>
-
-            </div>
-        </article>
+            Name
+            P: <a href="480-765-7968">480-765-7968</a><br />
+            E: <a href="mailto: wemsamuel@gmail.com">Wemsamuel@gmail.com</a>
+        </div>
     </section>
 
 </body>
 
 <footer>
-    <h2>designed & Built by Samuel O.</h2>
+    <h2>Designed & Built by <span> Samuel O.</span></h2>
 </footer>
 
 </html>
