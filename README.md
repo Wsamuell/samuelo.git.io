@@ -8,7 +8,7 @@
 * css
 
 ## Website
-* https://wsamuell.github.io/samuelo.git.io/
+* https://wsamuell.github.io/samuelw/
 ## User Story
 * AS AN employer
 * I WANT to view a potential employee's deployed portfolio of work samples
