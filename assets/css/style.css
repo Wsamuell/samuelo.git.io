@@ -54,7 +54,7 @@
 /* hero section styling */
 .hero{
     display: flex;
-    background: url("/assets/images/bg-2.jpeg") no-repeat;
+    background: url("../images/bg-2.jpeg") no-repeat;
     height: 60vh;
     color: white;
     min-width: 500px;
