@@ -30,6 +30,6 @@
 * THEN I am presented with a responsive layout that adapts to my viewport
 
 ### screenshot images
-![Screenshot](.assets/images/Screen Shot 2021-03-28 at 7.09.55 PM.png)
-![Screenshot](.assets/images/Screen Shot 2021-03-28 at 7.10.11 PM.png)
-![Screenshot](.assets/images/Screen Shot 2021-03-28 at 7.10.22 PM.png)
+![Screenshot](./assets/images/sc-1.png)
+![Screenshot](./assets/images/sc-2.png)
+![Screenshot](./assets/images/sc-3.png)
