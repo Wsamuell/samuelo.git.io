@@ -28,3 +28,8 @@
 * THEN I am taken to that deployed application
 * WHEN I resize the page or view the site on various screens and devices
 * THEN I am presented with a responsive layout that adapts to my viewport
+
+### screenshot images
+![Screenshot](.assets/images/Screen Shot 2021-03-28 at 7.09.55 PM.png)
+![Screenshot](.assets/images/Screen Shot 2021-03-28 at 7.10.11 PM.png)
+![Screenshot](.assets/images/Screen Shot 2021-03-28 at 7.10.22 PM.png)
